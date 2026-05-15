@@ -611,6 +611,9 @@ require('lazy').setup({
         -- But for many setups, the LSP (`ts_ls`) will work just fine
         ts_ls = {},
         tailwindcss = {},
+        docker_language_server = {},
+        docker_compose_language_service = {},
+        yamlls = {},
 
         stylua = {}, -- Used to format Lua code
 
